@@ -22,7 +22,7 @@ const Footer = () => {
                 <div>
                     <p className="text-2xl text-color-secondary mb-4">Follow Us</p>
                     <div className="space-y-4">
-                        <a className="block" href={"https://www.facebook.com/ounpha.taunggyi"} target="_blank">
+                        <a className="block" href={"https://www.facebook.com/ounpha.taunggyi"} target="_blank" rel="noreferrer">
                             <div className="flex inline-block items-center space-x-4">
                                 <div className="w-8">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path fill="#039be5" d="M24 5A19 19 0 1 0 24 43A19 19 0 1 0 24 5Z" /><path fill="#fff" d="M26.572,29.036h4.917l0.772-4.995h-5.69v-2.73c0-2.075,0.678-3.915,2.619-3.915h3.119v-4.359c-0.548-0.074-1.707-0.236-3.897-0.236c-4.573,0-7.254,2.415-7.254,7.917v3.323h-4.701v4.995h4.701v13.729C22.089,42.905,23.032,43,24,43c0.875,0,1.729-0.08,2.572-0.194V29.036z" /></svg>
@@ -30,7 +30,7 @@ const Footer = () => {
                                 <p>Facebook</p>
                             </div>
                         </a>
-                        <a className="block" href={"https://www.viber.com"} target="_blank">
+                        <a className="block" href={"https://www.viber.com"} target="_blank" rel="noreferrer">
                             <div className="flex inline-block items-center space-x-4">
                                 <div className="w-8">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><linearGradient id="kVR4WAMiBT-ffYOHy6lJja" x1="14.111" x2="34.153" y1="-5.971" y2="51.731" gradientUnits="userSpaceOnUse"><stop offset="0" stopColor="#fcfcfc" /><stop offset=".495" stopColor="#f4f4f4" /><stop offset=".946" stopColor="#e8e8e8" /><stop offset="1" stopColor="#e8e8e8" /></linearGradient>
@@ -43,7 +43,7 @@ const Footer = () => {
                                 <p>Viber</p>
                             </div>
                         </a>
-                        <a className="block" href={"https://www.Instagram.com"} target="_blank">
+                        <a className="block" href={"https://www.Instagram.com"} target="_blank" rel="noreferrer">
                             <div className="flex inline-block items-center space-x-4">
                                 <div className="w-8">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><radialGradient id="yOrnnhliCrdS2gy~4tD8ma" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse"><stop offset="0" stopColor="#fd5" /><stop offset=".328" stopColor="#ff543f" />
@@ -55,7 +55,7 @@ const Footer = () => {
                                 <p>Instagram</p>
                             </div>
                         </a>
-                        <a className="block" href={"https://www.youtube.com"} target="_blank">
+                        <a className="block" href={"https://www.youtube.com"} target="_blank" rel="noreferrer">
                             <div className="flex inline-block items-center space-x-4">
                                 <div className="w-8">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path fill="#FF3D00" d="M43.2,33.9c-0.4,2.1-2.1,3.7-4.2,4c-3.3,0.5-8.8,1.1-15,1.1c-6.1,0-11.6-0.6-15-1.1c-2.1-0.3-3.8-1.9-4.2-4C4.4,31.6,4,28.2,4,24c0-4.2,0.4-7.6,0.8-9.9c0.4-2.1,2.1-3.7,4.2-4C12.3,9.6,17.8,9,24,9c6.2,0,11.6,0.6,15,1.1c2.1,0.3,3.8,1.9,4.2,4c0.4,2.3,0.9,5.7,0.9,9.9C44,28.2,43.6,31.6,43.2,33.9z" />

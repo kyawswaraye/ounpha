@@ -7,7 +7,7 @@ const About = () => {
                 <div className="p-8 dark:bg-primary rounded-lg">
                     <div className="w-100 h-100">
                         <iframe className="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10401.526326163555!2d97.04149315437168!3d20.751392183680917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb87747503fdd228!2sOunpha%20Shabu%20Shabu!5e0!3m2!1sen!2ssg!4v1647917832290!5m2!1sen!2ssg"
-                            style={{ border: 0 }} allowfullscreen="" loading="lazy"></iframe>
+                            style={{ border: 0 }} allowFullScreen="" loading="lazy"></iframe>
                     </div>
                 </div>
                 <div className="p-8 dark:bg-primary">

@@ -1,5 +1,6 @@
 import Layout from "@/components/Layout";
 import Image from "next/image";
+import fetchSingleProduct from "pages/api/products/single";
 import { NEXT_PUBLIC_API_URL } from "../../config"
 const Product = ({ product }) => {
     return (
@@ -28,9 +29,9 @@ const Product = ({ product }) => {
 export default Product;
 
 export const getServerSideProps = async ({ params }) => {
-    const res = await fetch(`http://localhost:3000/api/products/${params.id}`)
-    const product = await res.json();
+    const product = await fetchSingleProduct(params.id);
+    console.log(product)
     return {
-        props: { product: product[0] }
+        props: { product }
     }
 }
