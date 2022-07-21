@@ -1,7 +1,6 @@
 import Layout from "@/components/Layout";
 import Image from "next/image";
 import fetchSingleProduct from "pages/api/products/single";
-import { NEXT_PUBLIC_API_URL } from "../../config"
 const Product = ({ product }) => {
     return (
         <Layout>
@@ -11,7 +10,7 @@ const Product = ({ product }) => {
                     <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
                         <div>
                             <Image alt={product.title}
-                                src={NEXT_PUBLIC_API_URL + product.featured_image[0].path}
+                                src={process.env.NEXT_PUBLIC_API_URL + product.featured_image[0].path}
                                 width={1200} height={768} objectFit="cover"
                             />
                         </div>
