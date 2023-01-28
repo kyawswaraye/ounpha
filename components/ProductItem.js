@@ -20,7 +20,7 @@ const ProductItem = ({ product }) => {
                         dangerouslySetInnerHTML={{ __html: product.description }} />
 
                     <div className="text-sm font-bold">
-                        $  {product.price}
+                        {product.price} Kyats
                     </div>
 
                     <div className="flex flex-row justify-end">
