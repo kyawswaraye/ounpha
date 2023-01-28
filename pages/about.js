@@ -13,7 +13,17 @@ const About = () => {
                 <div className="p-8 dark:bg-primary">
                     <div className="p-8 space-y-4 dark:bg-secondary rounded-lg">
                         <h1 className="text-3xl text-light-primary dark:text-color-secondary">About Our Factory</h1>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum impedit accusantium soluta, nemo laboriosam optio molestiae corporis atque magnam inventore.</p>
+                        <p>Our factory, based in Taunggyi, Myanmar, has been producing high-quality sausages since 2018. We take pride in our ability to craft authentic and delicious sausages that are true to their traditional roots.
+
+                            Our Kayah sausages are made with pork meat mixed with traditional herbs and spices such as sichuan pepper, ginger, garlic and chili. We use only the best cuts of pork to ensure the sausages are juicy and flavorful.
+
+                            Our Kayah chicken sausages are made with chicken meat, which is carefully selected and mixed with a blend of herbs and spices to give them a unique and delicious flavor.
+
+                            Our Yunnan sausages are made with premium cuts of pork meat and infused with a traditional blend of spices that are specific to Yunnan province, China. These sausages are characterized by their bold and savory flavor, and are a perfect addition to any meal.
+
+                            Our Taunggyi sausages are made with pork meat and have a BBQ flavor, which is achieved by carefully selecting the right blend of spices and herbs to give them a perfect balance of smokiness and sweetness.
+
+                            We are committed to providing our customers with the best possible experience, from the time they place their order to the moment they take their first bite. Order now and taste the difference that quality and authenticity make!</p>
                     </div>
                 </div>
             </div>

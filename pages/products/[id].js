@@ -16,7 +16,7 @@ const Product = ({ product }) => {
                         </div>
                         <div className="space-y-4">
                             <div className="tracking-wide" dangerouslySetInnerHTML={{ __html: product.description }} />
-                            <p className="text-light-primary dark:text-color-secondary">$ {product.price}</p>
+                            <p className="text-light-primary dark:text-color-secondary">{product.price} Kyats</p>
                         </div>
                     </div>
                 </div>
